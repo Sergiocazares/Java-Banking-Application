@@ -6,9 +6,10 @@ public class ScannerTest {
         //TODO Auto-generated method stub
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int a = scanner.nextInt();
-        System.out.println("value = "+a);
+        System.out.println("Enter a character");
+        //int a = scanner.nextInt();
+        char c = scanner.next().charAt(0);
+        System.out.println("value = "+c);
     }
 
 }
